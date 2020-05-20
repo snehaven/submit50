@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <title>Colors</title>
+        <style>
+
+        	h1 {
+        		color: black;
+        		text-align: center;
+        		font-size: 50px;
+            font-family: Courier New;
+        	}
+          p {
+            font-size: 17px;
+            text-align: center;
+            font-family: sans-serif;
+          }
+          .column-sm-4 {
+            text-align: center;
+            flex: 25%;
+            margin: 5px;
+          }
+          .coltitle {
+            background-color: #ffb49a;
+            color: white;
+          }
+          .row {
+            display: flex;
+          }
+          .column {
+            flex: 33.33%;
+            padding: 100px;
+          }
+          .image {
+            width: 300px;
+            height: 300px;
+            margin-top: 25px;
+            margin-left: 25px;
+            margin-right: 25px;
+          }
+          .coltitle:hover {
+            background-color: black;
+
+          }
+
+          #navigation {
+            background-color: #ffb49a;
+            flex: 25%;
+          }
+
+          @media (min-width: 700px) {
+            p::after {
+              content: " This website will make you think more about color. Just click any of the following links to enjoy information about your favorite color!"
+            }
+          }
+
+          body {
+            background-color: #ebebeb;
+          }
+        </style>
+
+    </head>
+    <body>
+        <h1>COLORS IN THE UNIVERSE</h1>
+        <nav class="navbar navbar-expand-sm bg-light">
+          <ul class="navbar-nav" id = navigation>
+            <li class="nav-item">
+              <a class="nav-link" href="red.html">Red</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="yellow.html">Yellow</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="orange.html">Orange</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blue.html">Blue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="purple.html">Purple</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="green.html">Green</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="black.html">Black</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gray.html">Gray</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="brown.html">Brown</a>
+          </ul>
+        </nav>
+        <img src = "pig2.png" height=350px width=100% >
+        <p>Welcome!</p>
+
+        <div class="container">
+          <div class="row">
+            <div class="column-sm-4">
+              <div class="coltitle">WARM</div>
+              <div class="row">
+                <div class="col-sm">
+                  <a href = "red.html">
+                    <img class = "image" src = "red.jpg"></img>
+                  </a>
+                </div>
+                <div class="col-sm">
+                  <a href = "yellow.html">
+                    <img class = "image" src = "yellow.jpg"></img>
+                  </a>
+                </div>
+                <div class="col-sm">
+                  <a href = "orange.html">
+                    <img class = "image" src = "orange.jpg"></img>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-sm-4">
+              <div class="coltitle">COOL</div>
+              <div class="row">
+                <div class="col-sm">
+                  <a href = "blue.html">
+                    <img class = "image" src = "blue.jpg"></img>
+                  </a>
+                </div>
+                <div class="col-sm">
+                  <a href = "purple.html">
+                    <img class = "image" src = "purple.jpg"></img>
+                  </a>
+                </div>
+                <div class="col-sm">
+                  <a href = "green.html">
+                    <img class = "image" src = "green.jpg"></img>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-sm-4">
+              <div class="coltitle">NEUTRAL</div>
+              <div class="row">
+                <div class="col-sm">
+                  <a href = "black.html">
+                    <img class = "image" src = "black.jpg"></img>
+                  </a>
+                </div>
+                <div class="col-sm">
+                  <a href = "gray.html">
+                    <img class = "image" src = "gray.jpg"></img>
+                  </a>
+                </div>
+                <div class="col-sm">
+                  <a href = "brown.html">
+                    <img class = "image" src = "brown.jpeg"></img>
+                  </a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+    </body>
+</html>

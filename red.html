@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Red</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/templates/styles.css">
+
+        <style>
+        body {
+          background-color: #fff0ed;
+        }
+        th {
+          background-color: #fa6548;
+        }
+        table {
+          background-color: #ffac9c;
+        }
+        ol > li {
+          color: red;
+        }
+        p::after, p::before{
+        	content: " \2193";
+        }
+        </style>
+    </head>
+    <body>
+        <h1>More on Red</h1>
+        <table>
+          <tr>
+            <th> Moods </th>
+            <th> Actions </th>
+            <th> Nature </th>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>Anger</li>
+                <li>Love
+                  <ol>
+                    <li>Motherly</li>
+                    <li>Friendship</li>
+                    <li>Romantic</li>
+                  </ol>
+                </li>
+                <li>Passionate</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Romance</li>
+                <li>Fighting</li>
+                <li>Fire-fighting</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Flowers
+                  <ol>
+                    <li>Roses</li>
+                  </ol>
+                </li>
+                <li>Fruits
+                  <ol>
+                    <li>Strawberries</li>
+                    <li>Cherries</li>
+                    <li>Apples</li>
+                  </ol>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <p> Click below to go back</p>
+        <a href = "{{url_for('index')}}"> Go back</a>
+    </body>
+</html>
